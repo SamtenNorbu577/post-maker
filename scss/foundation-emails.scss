@@ -1,0 +1,74 @@
+// Foundation for Emails by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import
+  'util/util',
+  'global',
+  'components/normalize',
+  'grid/grid',
+  'grid/block-grid',
+  'components/alignment',
+  'components/visibility',
+  'components/typography',
+  'components/button',
+  'components/callout',
+  'components/thumbnail',
+  'components/menu',
+  'components/outlook-first',
+  'components/media-query';
+
+.wrapper{
+  width: 600px;
+  max-width: 600px;
+  padding-top: 50px;
+}
+.wrapper_big{
+  width: auto;
+  max-width: auto;
+  padding-top: 50px;
+}
+
+.selpfie{
+  width: 560px;
+  height: auto;
+  border-radius: 5px;
+}
+.logo{
+  width: 180px;
+  height: 50px;
+  padding-left: 20px;
+}
+.separator{
+  padding: 0 20px;
+  border: 0.5px solid rgb(216,228,242);
+  width: 520px;
+  max-width: 520px;
+}
+
+.title{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.adress{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer{
+  background-color: transparent;
+}
+.button{
+  color: white;
+  padding: 10px 25px;
+  background-color: #016ac2;
+  border-radius: 5px;
+}
+
+.social-icon{
+  width: 30px;
+  height: 30px;
+  padding-left: 15px;
+  display: inline-block !important;
+}
+
